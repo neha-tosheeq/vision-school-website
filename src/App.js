@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      {/* Navbar */}
+      <nav className="navbar">
+        <h2>The Vision Public School</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Admissions</li>
+          <li>Courses</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="hero">
+        <h1>Empowering Minds, Shaping Futures</h1>
+        <p>Welcome to The Vision Public School</p>
+        <button>Apply Now</button>
+      </section>
+
     </div>
   );
 }
 
 export default App;
+
+
