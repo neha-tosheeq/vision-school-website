@@ -22,6 +22,23 @@ function App() {
         <p>Welcome to The Vision Public School</p>
         <button>Apply Now</button>
       </section>
+      {/* Cards Section */}
+      <section className="cards">
+        <div className="card">
+          <h3>Announcements</h3>
+          <p>Latest school updates and notices.</p>
+        </div>
+
+        <div className="card">
+          <h3>Events</h3>
+          <p>Upcoming school events and activities.</p>
+        </div>
+
+        <div className="card">
+          <h3>News</h3>
+          <p>Recent achievements and highlights.</p>
+        </div>
+      </section>
 
     </div>
   );
